@@ -1,0 +1,53 @@
+{
+  "name": "vue-ssr",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@bytemd/plugin-breaks": "^1.9.2",
+    "@bytemd/plugin-footnotes": "^1.9.2",
+    "@bytemd/plugin-frontmatter": "^1.9.2",
+    "@bytemd/plugin-gemoji": "^1.9.2",
+    "@bytemd/plugin-gfm": "^1.9.2",
+    "@bytemd/plugin-highlight": "^1.9.2",
+    "@bytemd/plugin-highlight-ssr": "^1.9.2",
+    "@bytemd/plugin-math": "^1.9.2",
+    "@bytemd/plugin-math-ssr": "^1.9.2",
+    "@bytemd/plugin-medium-zoom": "^1.9.2",
+    "@bytemd/plugin-mermaid": "^1.9.2",
+    "@bytemd/vue": "^1.9.2",
+    "github-markdown-css": "^4.0.0",
+    "nuxt": "^2.15.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.6",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
